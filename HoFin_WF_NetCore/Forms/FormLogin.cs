@@ -30,5 +30,6 @@ namespace HoFin_WF_NetCore.Forms
         {
             Application.Exit();
         }
+        //Ещё тест...
     }
 }
