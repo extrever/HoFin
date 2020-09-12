@@ -21,14 +21,20 @@ namespace HoFin_WF_NetCore.Forms
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
-        {            
+        {
             this.Close();
-            DialogResult = DialogResult.OK;
+            DialogResult = DialogResult.OK;            
         }
 
         private void buttonClose_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void labelForgotPassword_Click(object sender, EventArgs e)
+        {
+            FormForgotPass formForgotPass = new FormForgotPass();
+            formForgotPass.Show();            
         }
         //Ещё тест...
     }
