@@ -49,7 +49,7 @@
             // buttonForgotPassSubmit
             // 
             this.buttonForgotPassSubmit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonForgotPassSubmit.Location = new System.Drawing.Point(267, 137);
+            this.buttonForgotPassSubmit.Location = new System.Drawing.Point(273, 137);
             this.buttonForgotPassSubmit.Name = "buttonForgotPassSubmit";
             this.buttonForgotPassSubmit.Size = new System.Drawing.Size(104, 34);
             this.buttonForgotPassSubmit.TabIndex = 2;
@@ -59,7 +59,7 @@
             // buttonForgotPassCancel
             // 
             this.buttonForgotPassCancel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonForgotPassCancel.Location = new System.Drawing.Point(146, 137);
+            this.buttonForgotPassCancel.Location = new System.Drawing.Point(152, 137);
             this.buttonForgotPassCancel.Name = "buttonForgotPassCancel";
             this.buttonForgotPassCancel.Size = new System.Drawing.Size(104, 34);
             this.buttonForgotPassCancel.TabIndex = 3;
