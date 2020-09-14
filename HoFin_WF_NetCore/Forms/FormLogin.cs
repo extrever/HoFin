@@ -9,10 +9,10 @@ using System.Windows.Forms;
 namespace HoFin_WF_NetCore.Forms
 {
     public partial class FormLogin : Form
-    {
+    {        
         public FormLogin()
         {
-            InitializeComponent();
+            InitializeComponent();            
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)
@@ -33,9 +33,8 @@ namespace HoFin_WF_NetCore.Forms
 
         private void labelForgotPassword_Click(object sender, EventArgs e)
         {
-            FormForgotPass formForgotPass = new FormForgotPass();
-            formForgotPass.Show();            
-        }
-        //Ещё тест...
+            FormForgotPass formForgotPass = new FormForgotPass();            
+            formForgotPass.ShowDialog();
+        }        
     }
 }

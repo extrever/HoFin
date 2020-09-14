@@ -14,10 +14,10 @@ namespace HoFin_WF_NetCore.Forms
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        
+        private void buttonClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();            
         }
 
         private void buttonForgotPassCancel_Click(object sender, EventArgs e)

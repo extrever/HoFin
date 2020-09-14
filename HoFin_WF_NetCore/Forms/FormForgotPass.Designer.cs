@@ -33,7 +33,7 @@
             this.buttonForgotPassSubmit = new System.Windows.Forms.Button();
             this.buttonForgotPassCancel = new System.Windows.Forms.Button();
             this.textBoxForgotPassEmail = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // labelForgotPassHint
@@ -75,19 +75,20 @@
             this.textBoxForgotPassEmail.Size = new System.Drawing.Size(434, 29);
             this.textBoxForgotPassEmail.TabIndex = 5;
             // 
-            // button1
+            // buttonClose
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(512, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(29, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonClose.FlatAppearance.BorderSize = 0;
+            this.buttonClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClose.ForeColor = System.Drawing.Color.Black;
+            this.buttonClose.Location = new System.Drawing.Point(512, 0);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(29, 23);
+            this.buttonClose.TabIndex = 6;
+            this.buttonClose.Text = "X";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // FormForgotPass
             // 
@@ -95,7 +96,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(540, 200);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.textBoxForgotPassEmail);
             this.Controls.Add(this.buttonForgotPassCancel);
             this.Controls.Add(this.buttonForgotPassSubmit);
@@ -116,6 +117,6 @@
         private System.Windows.Forms.Button buttonForgotPassSubmit;
         private System.Windows.Forms.Button buttonForgotPassCancel;
         private System.Windows.Forms.TextBox textBoxForgotPassEmail;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonClose;
     }
 }
