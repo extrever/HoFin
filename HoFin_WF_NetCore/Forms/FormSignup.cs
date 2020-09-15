@@ -26,5 +26,6 @@ namespace HoFin_WF_NetCore.Forms
         }
 
         //TODO: add validations for all fields
+        //TODO: CRUD operations
     }
 }

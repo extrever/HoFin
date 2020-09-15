@@ -34,13 +34,14 @@
             this.buttonForgotPassCancel = new System.Windows.Forms.Button();
             this.textBoxForgotPassEmail = new System.Windows.Forms.TextBox();
             this.buttonClose = new System.Windows.Forms.Button();
+            this.labelForgotPass = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelForgotPassHint
             // 
             this.labelForgotPassHint.AutoSize = true;
             this.labelForgotPassHint.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelForgotPassHint.Location = new System.Drawing.Point(51, 38);
+            this.labelForgotPassHint.Location = new System.Drawing.Point(51, 56);
             this.labelForgotPassHint.Name = "labelForgotPassHint";
             this.labelForgotPassHint.Size = new System.Drawing.Size(435, 21);
             this.labelForgotPassHint.TabIndex = 1;
@@ -71,7 +72,7 @@
             // textBoxForgotPassEmail
             // 
             this.textBoxForgotPassEmail.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBoxForgotPassEmail.Location = new System.Drawing.Point(51, 86);
+            this.textBoxForgotPassEmail.Location = new System.Drawing.Point(51, 88);
             this.textBoxForgotPassEmail.Name = "textBoxForgotPassEmail";
             this.textBoxForgotPassEmail.Size = new System.Drawing.Size(434, 29);
             this.textBoxForgotPassEmail.TabIndex = 5;
@@ -91,12 +92,23 @@
             this.buttonClose.UseVisualStyleBackColor = true;
             this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
+            // labelForgotPass
+            // 
+            this.labelForgotPass.AutoSize = true;
+            this.labelForgotPass.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelForgotPass.Location = new System.Drawing.Point(12, 9);
+            this.labelForgotPass.Name = "labelForgotPass";
+            this.labelForgotPass.Size = new System.Drawing.Size(185, 21);
+            this.labelForgotPass.TabIndex = 7;
+            this.labelForgotPass.Text = "HoFin | Reset password";
+            // 
             // FormForgotPass
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(540, 200);
+            this.Controls.Add(this.labelForgotPass);
             this.Controls.Add(this.buttonClose);
             this.Controls.Add(this.textBoxForgotPassEmail);
             this.Controls.Add(this.buttonForgotPassCancel);
@@ -119,5 +131,6 @@
         private System.Windows.Forms.Button buttonForgotPassCancel;
         private System.Windows.Forms.TextBox textBoxForgotPassEmail;
         private System.Windows.Forms.Button buttonClose;
+        private System.Windows.Forms.Label labelForgotPass;
     }
 }
