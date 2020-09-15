@@ -40,11 +40,11 @@
             // 
             this.labelForgotPassHint.AutoSize = true;
             this.labelForgotPassHint.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.labelForgotPassHint.Location = new System.Drawing.Point(45, 38);
+            this.labelForgotPassHint.Location = new System.Drawing.Point(51, 38);
             this.labelForgotPassHint.Name = "labelForgotPassHint";
-            this.labelForgotPassHint.Size = new System.Drawing.Size(446, 21);
+            this.labelForgotPassHint.Size = new System.Drawing.Size(435, 21);
             this.labelForgotPassHint.TabIndex = 1;
-            this.labelForgotPassHint.Text = "To retrive your password, enter email you have used on signup:";
+            this.labelForgotPassHint.Text = "To reset your password, enter email you have used on signup:";
             // 
             // buttonForgotPassSubmit
             // 
@@ -55,6 +55,7 @@
             this.buttonForgotPassSubmit.TabIndex = 2;
             this.buttonForgotPassSubmit.Text = "Submit";
             this.buttonForgotPassSubmit.UseVisualStyleBackColor = true;
+            this.buttonForgotPassSubmit.Click += new System.EventHandler(this.buttonForgotPassSubmit_Click);
             // 
             // buttonForgotPassCancel
             // 

@@ -35,6 +35,12 @@ namespace HoFin_WF_NetCore.Forms
         {
             FormForgotPass formForgotPass = new FormForgotPass();            
             formForgotPass.ShowDialog();
-        }        
+        }
+
+        private void labelSignup_Click(object sender, EventArgs e)
+        {
+            FormSignup formSignup = new FormSignup();
+            formSignup.ShowDialog();
+        }
     }
 }

@@ -149,6 +149,7 @@
             this.labelSignup.Size = new System.Drawing.Size(51, 17);
             this.labelSignup.TabIndex = 1;
             this.labelSignup.Text = "Signup";
+            this.labelSignup.Click += new System.EventHandler(this.labelSignup_Click);
             // 
             // label3
             // 

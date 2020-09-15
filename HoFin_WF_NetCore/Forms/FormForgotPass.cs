@@ -24,5 +24,10 @@ namespace HoFin_WF_NetCore.Forms
         {
             this.Close();
         }
+
+        private void buttonForgotPassSubmit_Click(object sender, EventArgs e)
+        {
+            //TODO: Creat logic for password reset
+        }
     }
 }
